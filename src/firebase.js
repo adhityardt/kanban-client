@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase'
 
 const firebaseApp = initializeApp({
-  apiKey: 'AIzaSyD3FSvcvWoldx8B21lJ0_ThvveTnpVI4hQ',
-  authDomain: 'kanbanadhitya.firebaseapp.com',
-  databaseURL: 'https://kanbanadhitya.firebaseio.com',
-  projectId: 'kanbanadhitya',
-  storageBucket: 'kanbanadhitya.appspot.com',
-  messagingSenderId: '935862866557'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: ''
 })
 
 export const db = firebaseApp.database()
